@@ -1,0 +1,727 @@
+[
+  {
+    "clients": ["Alpha Strata"],
+    "tradingName": "ABC Electricals",
+    "entityName": "ABC Electricals Pty Ltd",
+    "abn": "12345678901",
+    "trade": "Electrician",
+    "streetAddress": "123 Main Street",
+    "suburb": "Sydney",
+    "state": "NSW",
+    "postcode": "2000",
+    "ohAndSRequested": true,
+    "contact": {
+      "name": "John Smith",
+      "phone": "123456789",
+      "fax": "987654321",
+      "email": "john@example.com"
+    },
+    "insuranceDetails": [
+      {
+        "description": "PLI_Public Liability / Product Liability",
+        "insurer": "Chubb Insurance",
+        "holder": "John Smith",
+        "number": "CHB123456",
+        "expiry": "2024-12-31",
+        "comments": "$1M"
+      }
+    ],
+    "status": "Approved"
+  },
+  {
+    "clients": ["Alpha Strata"],
+    "tradingName": "DEF Contractors",
+    "entityName": "DEF Contractors Pty Ltd",
+    "abn": "23456789012",
+    "trade": "Plumber",
+    "streetAddress": "456 Oak Avenue",
+    "suburb": "Melbourne",
+    "state": "VIC",
+    "postcode": "3000",
+    "ohAndSRequested": true,
+    "contact": {
+      "name": "Jane Doe",
+      "phone": "987654321",
+      "fax": "123456789",
+      "email": "jane@example.com"
+    },
+    "insuranceDetails": [
+      {
+        "description": "PII_Professional Indemnity",
+        "insurer": "XYZ Insurance",
+        "holder": "Jane Doe",
+        "number": "XYZ789",
+        "expiry": "2023-10-15",
+        "comments": "$2M"
+      }
+    ],
+    "status": "Pending"
+  },
+  {
+    "clients": ["Strata Plus"],
+    "tradingName": "GHI Services",
+    "entityName": "GHI Services Pty Ltd",
+    "abn": "34567890123",
+    "trade": "Carpenter",
+    "streetAddress": "789 Elm Street",
+    "suburb": "Brisbane",
+    "state": "QLD",
+    "postcode": "4000",
+    "ohAndSRequested": false,
+    "contact": {
+      "name": "Michael Brown",
+      "phone": "555666777",
+      "fax": "777888999",
+      "email": "michael@example.com"
+    },
+    "insuranceDetails": [
+      {
+        "description": "WCI_Worker's Compensation",
+        "insurer": "WXY Insurance",
+        "holder": "Michael Brown",
+        "number": "WXY123",
+        "expiry": "2025-05-20",
+        "comments": "$3M"
+      }
+    ],
+    "status": "Approved"
+  },
+  {
+    "clients": ["Alpha Strata"],
+    "tradingName": "JKL Engineering",
+    "entityName": "JKL Engineering Pty Ltd",
+    "abn": "45678901234",
+    "trade": "Mechanic",
+    "streetAddress": "1010 Oak Street",
+    "suburb": "Adelaide",
+    "state": "SA",
+    "postcode": "5000",
+    "ohAndSRequested": true,
+    "contact": {
+      "name": "David Wilson",
+      "phone": "111222333",
+      "fax": "333444555",
+      "email": "david@example.com"
+    },
+    "insuranceDetails": [
+      {
+        "description": "PLI_Public Liability / Product Liability",
+        "insurer": "ABC Insurance",
+        "holder": "David Wilson",
+        "number": "ABC987",
+        "expiry": "2023-08-15",
+        "comments": "$4M"
+      }
+    ],
+    "status": "Pending"
+  },
+  {
+    "clients": ["Strata Plus"],
+    "tradingName": "MNO Plumbing",
+    "entityName": "MNO Plumbing Pty Ltd",
+    "abn": "56789012345",
+    "trade": "Plumber",
+    "streetAddress": "678 Maple Avenue",
+    "suburb": "Perth",
+    "state": "WA",
+    "postcode": "6000",
+    "ohAndSRequested": true,
+    "contact": {
+      "name": "Emily Johnson",
+      "phone": "999888777",
+      "fax": "444555666",
+      "email": "emily@example.com"
+    },
+    "insuranceDetails": [
+      {
+        "description": "PLI_Public Liability / Product Liability",
+        "insurer": "XYZ Insurance",
+        "holder": "Emily Johnson",
+        "number": "XYZ456",
+        "expiry": "2022-11-30",
+        "comments": "$5M"
+      }
+    ],
+    "status": "Approved"
+  },
+  {
+    "clients": ["Alpha Strata"],
+    "tradingName": "PQR Constructions",
+    "entityName": "PQR Constructions Pty Ltd",
+    "abn": "67890123456",
+    "trade": "Builder",
+    "streetAddress": "789 Cedar Street",
+    "suburb": "Canberra",
+    "state": "ACT",
+    "postcode": "2600",
+    "ohAndSRequested": false,
+    "contact": {
+      "name": "Andrew Taylor",
+      "phone": "333444555",
+      "fax": "222333444",
+      "email": "andrew@example.com"
+    },
+    "insuranceDetails": [
+      {
+        "description": "PLI_Public Liability / Product Liability",
+        "insurer": "DEF Insurance",
+        "holder": "Andrew Taylor",
+        "number": "DEF123",
+        "expiry": "2024-09-25",
+        "comments": "$6M"
+      }
+    ],
+    "status": "Pending"
+  },
+  {
+    "clients": ["Alpha Strata"],
+    "tradingName": "STU Carpentry",
+    "entityName": "STU Carpentry Pty Ltd",
+    "abn": "78901234567",
+    "trade": "Carpenter",
+    "streetAddress": "890 Pine Street",
+    "suburb": "Darwin",
+    "state": "NT",
+    "postcode": "0800",
+    "ohAndSRequested": true,
+    "contact": {
+      "name": "Lisa Brown",
+      "phone": "777888999",
+      "fax": "888999000",
+      "email": "lisa@example.com"
+    },
+    "insuranceDetails": [
+      {
+        "description": "PII_Professional Indemnity",
+        "insurer": "GHI Insurance",
+        "holder": "Lisa Brown",
+        "number": "GHI456",
+        "expiry": "2023-07-12",
+        "comments": "$7M"
+      }
+    ],
+    "status": "Approved"
+  },
+  {
+    "clients": ["Alpha Strata"],
+    "tradingName": "VWX Constructions",
+    "entityName": "VWX Constructions Pty Ltd",
+    "abn": "89012345678",
+    "trade": "Builder",
+    "streetAddress": "901 Walnut Street",
+    "suburb": "Hobart",
+    "state": "TAS",
+    "postcode": "7000",
+    "ohAndSRequested": false,
+    "contact": {
+      "name": "Peter Wilson",
+      "phone": "666777888",
+      "fax": "111222333",
+      "email": "peter@example.com"
+    },
+    "insuranceDetails": [
+      {
+        "description": "WCI_Worker's Compensation",
+        "insurer": "JKL Insurance",
+        "holder": "Peter Wilson",
+        "number": "JKL789",
+        "expiry": "2022-05-18",
+        "comments": "$8M"
+      }
+    ],
+    "status": "Pending"
+  },
+  {
+    "clients": ["Alpha Strata"],
+    "tradingName": "YZA Roofing",
+    "entityName": "YZA Roofing Pty Ltd",
+    "abn": "90123456789",
+    "trade": "Roofing",
+    "streetAddress": "1011 Elm Street",
+    "suburb": "Gold Coast",
+    "state": "QLD",
+    "postcode": "4217",
+    "ohAndSRequested": true,
+    "contact": {
+      "name": "Jessica Lee",
+      "phone": "222333444",
+      "fax": "555666777",
+      "email": "jessica@example.com"
+    },
+    "insuranceDetails": [
+      {
+        "description": "PII_Professional Indemnity",
+        "insurer": "MNO Insurance",
+        "holder": "Jessica Lee",
+        "number": "MNO123",
+        "expiry": "2024-03-08",
+        "comments": "$9M"
+      }
+    ],
+    "status": "Approved"
+  },
+  {
+    "clients": ["Alpha Strata"],
+    "tradingName": "BCD Plumbing",
+    "entityName": "BCD Plumbing Pty Ltd",
+    "abn": "01234567890",
+    "trade": "Plumber",
+    "streetAddress": "1112 Maple Avenue",
+    "suburb": "Perth",
+    "state": "WA",
+    "postcode": "6000",
+    "ohAndSRequested": false,
+    "contact": {
+      "name": "Mark Johnson",
+      "phone": "888999000",
+      "fax": "333444555",
+      "email": "mark@example.com"
+    },
+    "insuranceDetails": [
+      {
+        "description": "PLI_Public Liability / Product Liability",
+        "insurer": "PQR Insurance",
+        "holder": "Mark Johnson",
+        "number": "PQR789",
+        "expiry": "2023-11-14",
+        "comments": "$10M"
+      }
+    ],
+    "status": "Pending"
+  },
+  {
+    "clients": ["Strata Plus"],
+    "tradingName": "EFG Maintenance",
+    "entityName": "EFG Maintenance Pty Ltd",
+    "abn": "98765432109",
+    "trade": "Maintenance",
+    "streetAddress": "1213 Oak Street",
+    "suburb": "Brisbane",
+    "state": "QLD",
+    "postcode": "4000",
+    "ohAndSRequested": true,
+    "contact": {
+      "name": "Sarah Williams",
+      "phone": "444555666",
+      "fax": "777888999",
+      "email": "sarah@example.com"
+    },
+    "insuranceDetails": [
+      {
+        "description": "WCI_Worker's Compensation",
+        "insurer": "STU Insurance",
+        "holder": "Sarah Williams",
+        "number": "STU123",
+        "expiry": "2025-02-28",
+        "comments": "$11M"
+      }
+    ],
+    "status": "Approved"
+  },
+  {
+    "clients": ["Alpha Strata"],
+    "tradingName": "HIJ Landscaping",
+    "entityName": "HIJ Landscaping Pty Ltd",
+    "abn": "87654321098",
+    "trade": "Landscaping",
+    "streetAddress": "1314 Pine Street",
+    "suburb": "Adelaide",
+    "state": "SA",
+    "postcode": "5000",
+    "ohAndSRequested": false,
+    "contact": {
+      "name": "Paula Miller",
+      "phone": "333444555",
+      "fax": "999888777",
+      "email": "paula@example.com"
+    },
+    "insuranceDetails": [
+      {
+        "description": "PII_Professional Indemnity",
+        "insurer": "UVW Insurance",
+        "holder": "Paula Miller",
+        "number": "UVW456",
+        "expiry": "2023-09-10",
+        "comments": "$12M"
+      }
+    ],
+    "status": "Pending"
+  },
+  {
+    "clients": ["Alpha Strata"],
+    "tradingName": "KLM Construction",
+    "entityName": "KLM Construction Pty Ltd",
+    "abn": "76543210987",
+    "trade": "Construction",
+    "streetAddress": "1415 Cedar Street",
+    "suburb": "Darwin",
+    "state": "NT",
+    "postcode": "0800",
+    "ohAndSRequested": true,
+    "contact": {
+      "name": "Kevin Harris",
+      "phone": "111222333",
+      "fax": "444555666",
+      "email": "kevin@example.com"
+    },
+    "insuranceDetails": [
+      {
+        "description": "PLI_Public Liability / Product Liability",
+        "insurer": "WXY Insurance",
+        "holder": "Kevin Harris",
+        "number": "WXY456",
+        "expiry": "2024-07-21",
+        "comments": "$13M"
+      }
+    ],
+    "status": "Approved"
+  },
+  {
+    "clients": ["Strata Plus"],
+    "tradingName": "LMN Services",
+    "entityName": "LMN Services Pty Ltd",
+    "abn": "65432109876",
+    "trade": "Services",
+    "streetAddress": "1516 Walnut Street",
+    "suburb": "Hobart",
+    "state": "TAS",
+    "postcode": "7000",
+    "ohAndSRequested": false,
+    "contact": {
+      "name": "Michelle Brown",
+      "phone": "777888999",
+      "fax": "222333444",
+      "email": "michelle@example.com"
+    },
+    "insuranceDetails": [
+      {
+        "description": "WCI_Worker's Compensation",
+        "insurer": "QRS Insurance",
+        "holder": "Michelle Brown",
+        "number": "QRS123",
+        "expiry": "2025-11-30",
+        "comments": "$14M"
+      }
+    ],
+    "status": "Pending"
+  },
+  {
+    "clients": ["Alpha Strata"],
+    "tradingName": "NOP Plumbing",
+    "entityName": "NOP Plumbing Pty Ltd",
+    "abn": "54321098765",
+    "trade": "Plumber",
+    "streetAddress": "1617 Maple Avenue",
+    "suburb": "Gold Coast",
+    "state": "QLD",
+    "postcode": "4217",
+    "ohAndSRequested": true,
+    "contact": {
+      "name": "Ryan Taylor",
+      "phone": "888999000",
+      "fax": "555666777",
+      "email": "ryan@example.com"
+    },
+    "insuranceDetails": [
+      {
+        "description": "PII_Professional Indemnity",
+        "insurer": "NOP Insurance",
+        "holder": "Ryan Taylor",
+        "number": "NOP789",
+        "expiry": "2023-12-15",
+        "comments": "$15M"
+      }
+    ],
+    "status": "Approved"
+  },
+  {
+    "clients": ["Alpha Strata"],
+    "tradingName": "EFG Engineering",
+    "entityName": "EFG Engineering Pty Ltd",
+    "abn": "43210987654",
+    "trade": "Engineering",
+    "streetAddress": "1718 Oak Street",
+    "suburb": "Brisbane",
+    "state": "QLD",
+    "postcode": "4000",
+    "ohAndSRequested": false,
+    "contact": {
+      "name": "Karen Johnson",
+      "phone": "444555666",
+      "fax": "999888777",
+      "email": "karen@example.com"
+    },
+    "insuranceDetails": [
+      {
+        "description": "PLI_Public Liability / Product Liability",
+        "insurer": "TUV Insurance",
+        "holder": "Karen Johnson",
+        "number": "TUV123",
+        "expiry": "2024-08-20",
+        "comments": "$16M"
+      }
+    ],
+    "status": "Pending"
+  },
+  {
+    "clients": ["Strata Plus"],
+    "tradingName": "QWE Services",
+    "entityName": "QWE Services Pty Ltd",
+    "abn": "32109876543",
+    "trade": "Services",
+    "streetAddress": "1819 Pine Street",
+    "suburb": "Adelaide",
+    "state": "SA",
+    "postcode": "5000",
+    "ohAndSRequested": true,
+    "contact": {
+      "name": "Richard Miller",
+      "phone": "111222333",
+      "fax": "444555666",
+      "email": "richard@example.com"
+    },
+    "insuranceDetails": [
+      {
+        "description": "WCI_Worker's Compensation",
+        "insurer": "TUV Insurance",
+        "holder": "Richard Miller",
+        "number": "TUV456",
+        "expiry": "2025-09-18",
+        "comments": "$17M"
+      }
+    ],
+    "status": "Approved"
+  },
+  {
+    "clients": ["Alpha Strata"],
+    "tradingName": "XYZ Constructions",
+    "entityName": "XYZ Constructions Pty Ltd",
+    "abn": "21098765432",
+    "trade": "Builder",
+    "streetAddress": "1920 Cedar Street",
+    "suburb": "Darwin",
+    "state": "NT",
+    "postcode": "0800",
+    "ohAndSRequested": false,
+    "contact": {
+      "name": "Daniel Wilson",
+      "phone": "666777888",
+      "fax": "333444555",
+      "email": "daniel@example.com"
+    },
+    "insuranceDetails": [
+      {
+        "description": "PII_Professional Indemnity",
+        "insurer": "WXY Insurance",
+        "holder": "Daniel Wilson",
+        "number": "WXY789",
+        "expiry": "2023-10-21",
+        "comments": "$18M"
+      }
+    ],
+    "status": "Pending"
+  },
+  {
+    "clients": ["Strata Plus"],
+    "tradingName": "RST Maintenance",
+    "entityName": "RST Maintenance Pty Ltd",
+    "abn": "10987654321",
+    "trade": "Maintenance",
+    "streetAddress": "2021 Oak Street",
+    "suburb": "Hobart",
+    "state": "TAS",
+    "postcode": "7000",
+    "ohAndSRequested": true,
+    "contact": {
+      "name": "Rebecca White",
+      "phone": "777888999",
+      "fax": "222333444",
+      "email": "rebecca@example.com"
+    },
+    "insuranceDetails": [
+      {
+        "description": "WCI_Worker's Compensation",
+        "insurer": "PQR Insurance",
+        "holder": "Rebecca White",
+        "number": "PQR123",
+        "expiry": "2025-03-10",
+        "comments": "$19M"
+      }
+    ],
+    "status": "Approved"
+  },
+  {
+    "clients": ["Alpha Strata"],
+    "tradingName": "LMN Landscaping",
+    "entityName": "LMN Landscaping Pty Ltd",
+    "abn": "09876543210",
+    "trade": "Landscaping",
+    "streetAddress": "2122 Pine Street",
+    "suburb": "Gold Coast",
+    "state": "QLD",
+    "postcode": "4217",
+    "ohAndSRequested": false,
+    "contact": {
+      "name": "Laura Johnson",
+      "phone": "888999000",
+      "fax": "555666777",
+      "email": "laura@example.com"
+    },
+    "insuranceDetails": [
+      {
+        "description": "PLI_Public Liability / Product Liability",
+        "insurer": "NOP Insurance",
+        "holder": "Laura Johnson",
+        "number": "NOP123",
+        "expiry": "2024-11-28",
+        "comments": "$20M"
+      }
+    ],
+    "status": "Pending"
+  },
+  {
+    "clients": ["Alpha Strata"],
+    "tradingName": "OPQ Roofing",
+    "entityName": "OPQ Roofing Pty Ltd",
+    "abn": "98765432109",
+    "trade": "Roofing",
+    "streetAddress": "2223 Elm Street",
+    "suburb": "Brisbane",
+    "state": "QLD",
+    "postcode": "4000",
+    "ohAndSRequested": true,
+    "contact": {
+      "name": "Matthew Brown",
+      "phone": "444555666",
+      "fax": "999888777",
+      "email": "matthew@example.com"
+    },
+    "insuranceDetails": [
+      {
+        "description": "PII_Professional Indemnity",
+        "insurer": "QRS Insurance",
+        "holder": "Matthew Brown",
+        "number": "QRS789",
+        "expiry": "2023-12-20",
+        "comments": "$21M"
+      }
+    ],
+    "status": "Approved"
+  },
+  {
+    "clients": ["Alpha Strata"],
+    "tradingName": "TUV Electricals",
+    "entityName": "TUV Electricals Pty Ltd",
+    "abn": "87654321098",
+    "trade": "Electrician",
+    "streetAddress": "2324 Oak Street",
+    "suburb": "Adelaide",
+    "state": "SA",
+    "postcode": "5000",
+    "ohAndSRequested": false,
+    "contact": {
+      "name": "Olivia Johnson",
+      "phone": "111222333",
+      "fax": "444555666",
+      "email": "olivia@example.com"
+    },
+    "insuranceDetails": [
+      {
+        "description": "PLI_Public Liability / Product Liability",
+        "insurer": "STU Insurance",
+        "holder": "Olivia Johnson",
+        "number": "STU123",
+        "expiry": "2024-08-25",
+        "comments": "$22M"
+      }
+    ],
+    "status": "Pending"
+  },
+  {
+    "clients": ["Strata Plus"],
+    "tradingName": "VWX Services",
+    "entityName": "VWX Services Pty Ltd",
+    "abn": "76543210987",
+    "trade": "Services",
+    "streetAddress": "2425 Pine Street",
+    "suburb": "Hobart",
+    "state": "TAS",
+    "postcode": "7000",
+    "ohAndSRequested": true,
+    "contact": {
+      "name": "Nathan White",
+      "phone": "777888999",
+      "fax": "222333444",
+      "email": "nathan@example.com"
+    },
+    "insuranceDetails": [
+      {
+        "description": "WCI_Worker's Compensation",
+        "insurer": "UVW Insurance",
+        "holder": "Nathan White",
+        "number": "UVW123",
+        "expiry": "2025-04-30",
+        "comments": "$23M"
+      }
+    ],
+    "status": "Approved"
+  },
+  {
+    "clients": ["Alpha Strata"],
+    "tradingName": "WXY Constructions",
+    "entityName": "WXY Constructions Pty Ltd",
+    "abn": "54321098765",
+    "trade": "Builder",
+    "streetAddress": "2526 Oak Street",
+    "suburb": "Darwin",
+    "state": "NT",
+    "postcode": "0800",
+    "ohAndSRequested": false,
+    "contact": {
+      "name": "Sophia Miller",
+      "phone": "666777888",
+      "fax": "333444555",
+      "email": "sophia@example.com"
+    },
+    "insuranceDetails": [
+      {
+        "description": "PII_Professional Indemnity",
+        "insurer": "XYZ Insurance",
+        "holder": "Sophia Miller",
+        "number": "XYZ123",
+        "expiry": "2023-11-15",
+        "comments": "$24M"
+      }
+    ],
+    "status": "Pending"
+  },
+  {
+    "clients": ["Strata Plus"],
+    "tradingName": "RST Landscaping",
+    "entityName": "RST Landscaping Pty Ltd",
+    "abn": "32109876543",
+    "trade": "Landscaping",
+    "streetAddress": "2627 Pine Street",
+    "suburb": "Gold Coast",
+    "state": "QLD",
+    "postcode": "4217",
+    "ohAndSRequested": false,
+    "contact": {
+      "name": "William Johnson",
+      "phone": "888999000",
+      "fax": "555666777",
+      "email": "william@example.com"
+    },
+    "insuranceDetails": [
+      {
+        "description": "PLI_Public Liability / Product Liability",
+        "insurer": "ABC Insurance",
+        "holder": "William Johnson",
+        "number": "ABC789",
+        "expiry": "2024-10-12",
+        "comments": "$25M"
+      }
+    ],
+    "status": "Pending"
+  }
+]

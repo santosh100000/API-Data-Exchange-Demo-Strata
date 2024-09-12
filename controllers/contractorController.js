@@ -1,7 +1,5 @@
 import { StrataPlusContractor } from "../models/StrataPlusContractor.js";
 
-// Enum array for allowed client names
-
 const addContractor = async (req, res) => {
   try {
     console.log("Got inside the controller");
